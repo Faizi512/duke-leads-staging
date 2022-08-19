@@ -1,0 +1,74 @@
+<%= javascript_pack_tag 'index', 'data-turbolinks-track': 'reload', defer: true %>
+
+<%= include_recaptcha_js %>
+
+<div class="bg-black">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top">
+      <%= image_tag("logo.png", class: "", width: "80" ) %>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white font-style" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-style" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="bg-black text-center mt-6">
+  <div>
+      <div class="deconstructed">
+      DUKE LEADS - FZCO
+      <div>DUKE LEADS - FZCO</div>
+      <div>DUKE LEADS - FZCO</div>
+      <div>DUKE LEADS - FZCO</div>
+      <div>DUKE LEADS - FZCO</div>
+    </div>
+  </div>
+
+  <%= image_tag("jaguar.png", class: "fadeanimation img-jaguar", width: "600" ) %>
+</div>
+
+
+<!-- contact -->
+<div class="bg-orng py-md-5 py-4">
+  <div class="container">
+    <div class="row w-100 m-0 bg-orng">
+      <div class="col text-center align-self-center">
+        <h1 class="text-white font-style f-40" id="contact">Contact Duke Leads</h1>
+        <h5 class=" text-white font-style">Contact At: </h5>
+        <a class="m-0 font-railway f-17 text-white" href="mailto:admin@dukeleads.com">admin@dukeleads.com</a>
+        <h5 class=" text-white font-style">Address</h5>
+        <p class="m-0 font-railway f-17 text-white">
+          DukeLeads.com is the property and trading style of Duke Leads - FZCO
+        </p>
+        <p class="m-0 font-railway f-17 text-white">
+          Dubai Silicon Oasis, Dubai, UAE.
+        </p>
+        <p class="m-0 font-railway f-17 text-white">
+          Licence Number 6245.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-black">
+  <div class="container">
+    <div class="row w-100 m-0 py-3">
+      <div class="col-lg-6 text-lg-left text-center">
+        <a href="/terms" class="m-0 font-railway text-white ">Terms and Conditions</a>
+      </div>
+      <div class="col-lg-6 mt-2 mt-lg-0">
+        <p class="m-0 font-railway f-17 text-white text-lg-right text-center">© 2020 All rights reserved Duke Leads Ltd</p>
+      </div>
+    </div>
+  </div>
+</div>
