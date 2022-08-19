@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root 'pages#index'
   post '/success' => 'pages#success'
   get '/terms' => 'pages#terms'
+  get '/privacy-policy' => 'pages#privacy'
+  get '/cookie-policy' => 'pages#cookie'
 end

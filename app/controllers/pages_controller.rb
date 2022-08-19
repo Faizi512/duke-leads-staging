@@ -7,6 +7,12 @@ class PagesController < ApplicationController
   def terms
   end
 
+  def privacy
+  end
+
+  def cookie
+  end
+
   def success
     unless verify_recaptcha?(params[:recaptcha_token], 'verify')
       flash.now[:error] = t('recaptcha.errors.verification_failed')
